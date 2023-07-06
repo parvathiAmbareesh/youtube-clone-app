@@ -1,0 +1,44 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-right: 40px;
+}
+
+.sidebarRow__icon{
+    color: #4c4c4c;
+    font-size: large !important;
+}
+
+.sidebarRow__title{
+    /* flex: 1; */
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sidebarRow:hover{
+    background-color:lightgray;
+    cursor: pointer;
+}
+
+.sidebarRow:hover>.sidebarRow__icon{
+    color: black;
+}
+
+.sidebarRow:hover>.sidebarRow__title{
+    font-weight: bold;
+}
+
+.sidebarRow.selected{ /*To keep Home selected by default with bg gray color*/
+    background-color: lightgray;
+}
+
+.sidebarRow.selected>.sidebarRow__icon{ 
+    color: black;
+}
+
+.sidebarRow.selected>.sidebarRow__title{
+    font-weight: bold;
+}
