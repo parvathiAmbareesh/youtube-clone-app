@@ -8,7 +8,6 @@ function SidebarRow({selected, Icon, title}) {
       <Icon className='sidebarRow__icon'/>
       <p className='sidebarRow__title'>{title}</p>
 
-      <hr/>
     </div>
   )
 }

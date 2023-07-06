@@ -49,19 +49,19 @@
 .header__icons{
     display: flex;
     align-items: center;
-    margin-left: 10px;
-    /* position: absolute top right; */
     /* border: 3px solid black; */
 }
 
 .header__icon{
-    margin-right: 10px;
+    margin-right: 5px;
+    padding: 8px;/*The sole factor for any movement of the icons while hovering*/
 }
 
 .header__icon:hover{
     border-radius: 60%;
-    padding: 7px;
+    padding: 8px; /*The sole factor for any movement of the icons while hovering*/
     background-color: lightgray;
     cursor: pointer;
 }
+/*Keep both padding values equal to avoid icon movement during hovering*/
 
